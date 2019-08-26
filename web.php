@@ -25,4 +25,4 @@ Route::get('/', function () {
 //Route::resource('student','studentcontroller');
 
 Route::get('/save', 'studentscontroller@index')->name('home');
-Route::post('/save', 'studentscontroller@save');
+Route::post('/save', 'studentscontroller@save')->name('save');
